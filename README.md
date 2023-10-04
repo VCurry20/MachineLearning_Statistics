@@ -79,3 +79,9 @@ Python Librarys
 
 ***
 
+
+
+# Bibliography
+
+Markdown 
+[1] https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#syntax-amsmath

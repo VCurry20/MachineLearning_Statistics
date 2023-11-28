@@ -110,3 +110,14 @@ This repository is made up of data files, images but also Jupyter notebooks; whi
 
 
 
+
+
+
+
+****
+
+Bibliography
+
+[] readme  - https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+
+[] image - https://www.simplypsychology.org/p-value.html

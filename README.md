@@ -140,6 +140,8 @@ Technology Used:
 
 ## Python
 
+`print ("Hello World")`
+
 "Python is a high-level, general-purpose programming language." [wiki ]This programming language supports many different programming paradigms and emphasises the importance of readability and simplicity.
 
 Anaconda is "a distribution of Python designed specifically for machine learning and data science" [simpilearn], it comes with many libraries including those mentioned preinstalled.
@@ -226,7 +228,7 @@ Binder is a step further than nbviewer, where nbviewer allows for users to share
 
 ***
 
-## How to run Notebook
+## How to interact with Repository
 
 
 
@@ -234,5 +236,10 @@ Binder is a step further than nbviewer, where nbviewer allows for users to share
 
 ****
 
-Bibliography
+## Bibliography
 
+[]
+
+[]
+
+[]

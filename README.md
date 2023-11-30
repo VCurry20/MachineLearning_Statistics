@@ -121,13 +121,13 @@ Technology Used:
 
 -- [Python / Anaconda](https://www.anaconda.com/)
 
--- [Video Studio Code]()
+-- [Video Studio Code](https://code.visualstudio.com/)
 
 
 -- [Jupyter](https://jupyter.org/)
 
 
--- [git]()
+-- [git](https://git-scm.com/)
 
 -- [GitHub](https://github.com/)
 
@@ -179,13 +179,27 @@ Currently Jupyter offers Jupyter Notebooks, Jupyter Labs and also Jupyter Lite (
 
 
 ## git
+How do many programmers work together, sharing and updating code simultaneously, and how do you keep track of the many versions of this code? The answer to this is Git.
+
+Git was created and named for Linus Torvalds [wiki]. Git allows for code to be stored on your own device but more importantly centrally so that multiple progammers can share code but also work simultaneously, these changes can be tracked and users have version control. 
+
+You can download git directly and this open source system will allow [you](https://www.simplilearn.com/tutorials/git-tutorial/what-is-git#:~:text=Git%20is%20a%20DevOps%20tool,together%20on%20non%2Dlinear%20development.) to push your own code to code repositories such as github.
+
+
+<p align="center">
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/business-org.JPG">
+</p>
 
 
 ## Github
 
+Once you have installed git you can then push your code to online repositories, I have used Github but there are alternative versions, "including SourceForge, Bitbucket and GitLab" [gitwiki]
 
-## Binder
+These sites allow for code to be shown in a static form - and allow for users to post various code forms - Python, C, HTML, or Jupyter Notebooks.
 
+This code can be made pivate or public and can be copied or cloned down to individual computers - allowing for the sharing of code. Also Github allows for user to share repositories and work together on projects.
+
+Github is a further continuation of the open source ethos, it allows for users to share information and this infomation is freely available. Users post how-to-guides, programming updates, projects and programs which are all available for other users to review.
 
 ## NBViewer
 
@@ -202,14 +216,19 @@ The first way in which we can view this Respository is by using NBViewer. "nbvie
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/VCurry20/MachineLearning_Statistics/blob/main/Project.ipynb)
 
 
-
 ## Binder
 
+Binder is a step further than nbviewer, where nbviewer allows for users to share a static jupyter notebook binder will allow for users to run the code - without changing the original file.
 
+((((((((((Update the binder link ))))))))))
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/vcurry20-pdanumpy-s2yqglos/notebooks/Numpy.ipynb)
 
 ***
 
 ## How to run Notebook
+
+
 
 
 

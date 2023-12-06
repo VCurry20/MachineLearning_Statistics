@@ -107,7 +107,7 @@ Please note: there may be other libraries used in this repository but the ones l
 <br/>
 
 
-## Programs Required
+## Technology Used
 
 ***
 
@@ -117,7 +117,6 @@ I have written this code using Python in Visual Studio Code, which outputs to a 
 
 <br/>
 
-Technology Used:
 
 -- [Python / Anaconda](https://www.anaconda.com/)
 

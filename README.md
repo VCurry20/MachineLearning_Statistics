@@ -221,21 +221,57 @@ The first way in which we can view this Respository is by using NBViewer. "nbvie
 
 Binder is a step further than nbviewer, where nbviewer allows for users to share a static jupyter notebook binder will allow for users to run the code - without changing the original file.
 
+
+The link will op
 Here you can interact with my Jupyter notebook, you can change and run the code to see how your interactions change the outcomes.
+
+Click on the binder link below, this will open on your browser. Upon opening you will see a list of files on the left and a main page to your right. It will include all the files in my GitHub repository. The Jupyier notebooks end with  .ipynb.
+
+Choose one of these files to open; it will appear in the right hand panel and from here you can interact with the code.
 
 Click on each set of code to change - hold shift and enter to run the code.
 
-Jupyter notesbooks run from top to bottom, for this reason you can change things lower down, even copying and changing files, delete / undo these changes and rerun the full page to undo the changes. 
+Jupyter notesbooks run from top to bottom, for this reason you can change things lower down, even copying and changing fsquares of code; delete / undo these changes and rerun the full page to undo the changes. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/vcurry20-pdanumpy-s2yqglos/notebooks/Numpy.ipynb)
+Repository Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/VCurry20/MachineLearning_Statistics/HEAD))
+
+
 
 ***
 
 ## How to interact with Repository
 
+The final option available for you to interact with my repository is to either fork or clone my repository to your own machine.
+
+This allows you to take your own copy and to use the code. For differences between these practices please review the [here](https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git).
+
+To Clone my Repository:
+
+1. Open the Repository [Location](https://github.com/VCurry20/MachineLearning_Statistics)
+
+2. At the top of each Repository there is a code dropdown menu. From here you can choose the HTTP, the SSH or the Git CLI.
+
+In this case you will use the HTTPS.
+
+<p align="center">
+    <img src="Images/git_HTTP.jpg">
+</p>
 
 
 
+
+3. Take a copy of the HTTPS for the repository.
+
+4. Open Git Bash 
+
+5. Changing the opening directory to the location you would like to save a copy of the repository. Type Git Clone and the URL 
+
+              git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+
+There will now be a copy of the repository saved to your device, using Visual Studio code you can now run, view and change this code.
 
 ****
 

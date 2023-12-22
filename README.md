@@ -221,7 +221,11 @@ The first way in which we can view this Respository is by using NBViewer. "nbvie
 
 Binder is a step further than nbviewer, where nbviewer allows for users to share a static jupyter notebook binder will allow for users to run the code - without changing the original file.
 
-((((((((((Update the binder link ))))))))))
+Here you can interact with my Jupyter notebook, you can change and run the code to see how your interactions change the outcomes.
+
+Click on each set of code to change - hold shift and enter to run the code.
+
+Jupyter notesbooks run from top to bottom, for this reason you can change things lower down, even copying and changing files, delete / undo these changes and rerun the full page to undo the changes. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/vcurry20-pdanumpy-s2yqglos/notebooks/Numpy.ipynb)
 

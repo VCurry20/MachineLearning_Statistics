@@ -47,7 +47,7 @@ This repository is made up of data files (CSV files), images, and Jupyter notebo
 
 ***
 
-Python has a wide range of [Libraries](https://www.mygreatlearning.com/blog/open-source-python-libraries/) which can be imported as needed. Best practice is to run this code from the top of your program. Libraries can be easily added and removed at any time.
+Python has a wide range of [Libraries](https://www.mygreatlearning.com/blog/open-source-python-libraries/) which can be imported as needed. Best practice is to run this code from the top of your program. Libraries can be easily added and removed at any time. [1]
 
 Libraries are formed from mostly open source code which has been grouped together by topic or logic (eg.statistics or graphing). This grouping of code eliminates the need for us to write our own code each time and is always being added to and improved.
 
@@ -58,40 +58,46 @@ For programmers new to Python it also offers the ability to complete complex cal
 
  - [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html)
 
-NumPy is sometimes referred to as numerical Python. NumPy is a library that allows users to store their data in arrays. Arrays are a group of values which are stored together and can be accessed by indexing; this ability to store and index the values allows us to access data, maniplutate it, assess it, we can easily take copies or amend the original. 
+NumPy is sometimes referred to as numerical Python. NumPy is a library that allows users to store their data in arrays. Arrays are a group of values which are stored together and can be accessed by indexing; this ability to store and index the values allows us to access data, maniplutate it, assess it, we can easily take copies or amend the original. [2]
 
 
 <p align="center">
     <img src="Images/readme_numpy.jpg">
 </p>
+<p align="right">
+    [3]
+</p>
+
 
  - [Pandas](https://pandas.pydata.org/)
 
- Pandas is a library that sits on and expands on NumPy, Numpy froms a basic numerical array where Pandas moves this data a step further and allows us to form dataframes. Dataframes are spreadsheet like and allow for easier importing of data, manipulation, merging of files, exporting of different file types, handling of missing data fields or null values, and analysis of large files. []
+ Pandas is a library that sits on and expands on NumPy, Numpy froms a basic numerical array where Pandas moves this data a step further and allows us to form dataframes. Dataframes are spreadsheet like and allow for easier importing of data, manipulation, merging of files, exporting of different file types, handling of missing data fields or null values, and analysis of large files. [4]
 
  - [scipy stats](https://docs.scipy.org/doc/scipy-1.7.1/reference/reference/stats.html#:~:text=This%20module%20contains%20a%20large,Monte%20Carlo%20functionality%2C%20and%20more.)
 
  Scipy Stats offers us a large number of stastical formulas which we can use in our calculations - this removes the need for us to code the formulas independantly. 
 
- Scipy Stats includes the following "probability distributions, summary and frequency statistics, correlation functions and statistical tests, masked statistics, kernel density estimation, quasi-Monte Carlo functionality". []
+ Scipy Stats includes the following "probability distributions, summary and frequency statistics, correlation functions and statistical tests, masked statistics, kernel density estimation, quasi-Monte Carlo functionality". [5]
 
 
 <p align="center">
     <img src="https://online.stat.psu.edu/statprogram/sites/statprogram/files/2018-08/statistics-review.jpg">
 </p>
 
-
+<p align="right">
+    [6]
+</p>
 
  - [matplotlib](https://matplotlib.org/)
 
- Matplotlib is a plotting library for 2D plots of arrays, this works on top of NumPy and allows for quick plotting.
+ Matplotlib is a plotting library for 2D plots of arrays, this works on top of NumPy and allows for quick plotting. [7]
  
- From this library we will import and use [pyplot](https://matplotlib.org/stable/tutorials/pyplot.html) which allows us to use functions similar to those in MATLAB, which is a programming language in its own right, which is used for plotting etc.
+ From this library we will import and use [pyplot](https://matplotlib.org/stable/tutorials/pyplot.html) which allows us to use functions similar to those in MATLAB, which is a programming language in its own right, which is used for plotting etc. [8]
 
 
  - [Seaborn](https://seaborn.pydata.org/tutorial/introduction.html)
 
-This is another example of a library which operates on top of or extends the functionality of another; "Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures." [ same as above seaborn link]
+This is another example of a library which operates on top of or extends the functionality of another; "Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures." [9]
 
 
 <p align="center">
@@ -137,20 +143,26 @@ I have written this code using Python in Visual Studio Code, which outputs to a 
 
 <br/>
 
+<p align="right">
+    [10][11][12][13][14][15][16]
+</p>
+
+<br/>
+
 ## Python
 
 `print ("Hello World")`
 
-"Python is a high-level, general-purpose programming language." [wiki ]This programming language supports many different programming paradigms and emphasises the importance of readability and simplicity.
+"Python is a high-level, general-purpose programming language." [17] This programming language supports many different programming paradigms and emphasises the importance of readability and simplicity.
 
-Anaconda is "a distribution of Python designed specifically for machine learning and data science" [simpilearn], it comes with many libraries including those mentioned preinstalled.
+Anaconda is "a distribution of Python designed specifically for machine learning and data science" [18], it comes with many libraries including those mentioned preinstalled.
 
-You can download Anaconda [here](https://www.anaconda.com/download), with Mac, Windows and Linux versions available. Click on the download button, complete the download to your device.
+You can download Anaconda [here](https://www.anaconda.com/download), with Mac, Windows and Linux versions available. Click on the download button, complete the download to your device. [19]
 
-Please note the installation guides for each operating System are [here](https://docs.anaconda.com/free/anaconda/install/)
+Please note the installation guides for each operating System are [here](https://docs.anaconda.com/free/anaconda/install/). [20]
 
 
-Once you have installed Anaconda you can launch the [Navigator](https://docs.anaconda.com/free/anaconda/getting-started/#) which provides a GUI to help you launch Visual Studio Code or Jupyter.
+Once you have installed Anaconda you can launch the [Navigator](https://docs.anaconda.com/free/anaconda/getting-started/#) which provides a GUI to help you launch Visual Studio Code or Jupyter. [21]
 
 Alternatively you can access Anaconda using its inbuilt command line or the Command Line on your device.
 
@@ -161,9 +173,9 @@ I have used a text Editor; Visual Studio Code. This is an additional program whi
 
 Visual Studio Code or VSCode is a code or text editor which allows the user to program in a variety of different languages, it offers an interface which you can use to write, amend and run code. Visual studio code has a library of additonal extensions that can be added which offer additional functionality, and offers easy code indentation and error handling.
 
-You can download this software for free [here](https://code.visualstudio.com/?wt.mc_id=DX_841432). Again there are versions available for Windows (it is actually also owned by Microsoft), Mac or Linux.
+You can download this software for free [here](https://code.visualstudio.com/?wt.mc_id=DX_841432). Again there are versions available for Windows (it is actually also owned by Microsoft), Mac or Linux. [22]
 
-For a step by Step guide on installation and the basics please review this [page](https://www.codecademy.com/article/visual-studio-code).
+For a step by Step guide on installation and the basics please review this [page](https://www.codecademy.com/article/visual-studio-code). [23]
 
 From VSCode I have "pushed" my code to Github, which is again owned by Microsoft and offers a platform to store code, collaborate and view code from programmers all over the world.
 
@@ -174,7 +186,7 @@ Jupyter Notesbooks offer the programmer the ability to story tell; here you have
 
 They can be used for more elaborate note taking, where code and text are grouped together - you can see examples of these in my Video Reviews file; or they can also be used to present. By forming a narative of both code and text the author can provide the reader with greater insight, the audience viewing the notebooks can also be collborators with Jupyer offering more ways to work together and share ideas.
 
-Jupyter supports programming code, Markdown and Graphing. To get further insight into these processes please review this [page](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook).
+Jupyter supports programming code, Markdown and Graphing. To get further insight into these processes please review this [page](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook). [24]
 
 Currently Jupyter offers Jupyter Notebooks, Jupyter Labs and also Jupyter Lite (still in testing).
 
@@ -182,19 +194,23 @@ Currently Jupyter offers Jupyter Notebooks, Jupyter Labs and also Jupyter Lite (
 ## git
 How do many programmers work together, sharing and updating code simultaneously, and how do you keep track of the many versions of this code? The answer to this is Git.
 
-Git was created and named for Linus Torvalds [wiki]. Git allows for code to be stored on your own device but more importantly centrally so that multiple progammers can share code but also work simultaneously, these changes can be tracked and users have version control. 
+Git was created and named for Linus Torvalds [25]. Git allows for code to be stored on your own device but more importantly centrally so that multiple progammers can share code but also work simultaneously, these changes can be tracked and users have version control. 
 
-You can download git directly and this open source system will allow [you](https://www.simplilearn.com/tutorials/git-tutorial/what-is-git#:~:text=Git%20is%20a%20DevOps%20tool,together%20on%20non%2Dlinear%20development.) to push your own code to code repositories such as github.
+You can download git directly and this open source system will allow [you](https://www.simplilearn.com/tutorials/git-tutorial/what-is-git#:~:text=Git%20is%20a%20DevOps%20tool,together%20on%20non%2Dlinear%20development.) to push your own code to code repositories such as github. [26]
 
 
 <p align="center">
     <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/business-org.JPG">
 </p>
 
+<p align="right">
+    [27]
+</p>
+
 
 ## Github
 
-Once you have installed git you can then push your code to online repositories, I have used Github but there are alternative versions, "including SourceForge, Bitbucket and GitLab" [gitwiki]
+Once you have installed git you can then push your code to online repositories, I have used Github but there are alternative versions, "including SourceForge, Bitbucket and GitLab" [25]
 
 These sites allow for code to be shown in a static form - and allow for users to post various code forms - Python, C, HTML, or Jupyter Notebooks.
 
@@ -204,7 +220,7 @@ Github is a further continuation of the open source ethos, it allows for users t
 
 ## NBViewer
 
-The first way in which we can view this Respository is by using NBViewer. "nbviewer is a web application that lets you enter the URL of a Jupyter Notebook file, renders that notebook as a static HTML web page, and gives you a stable link to that page which you can share with others. nbviewer also supports browsing collections of notebooks (e.g., in a GitHub repository) and rendering notebooks in other formats (e.g., slides, scripts). []
+The first way in which we can view this Respository is by using NBViewer. "nbviewer is a web application that lets you enter the URL of a Jupyter Notebook file, renders that notebook as a static HTML web page, and gives you a stable link to that page which you can share with others. nbviewer also supports browsing collections of notebooks (e.g., in a GitHub repository) and rendering notebooks in other formats (e.g., slides, scripts). [27]
 
 > Project Link:
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/VCurry20/MachineLearning_Statistics/tree/main/)
@@ -245,7 +261,7 @@ Repository Binder:
 
 The final option available for you to interact with my repository is to either fork or clone my repository to your own machine.
 
-This allows you to take your own copy and to use the code. For differences between these practices please review the [here](https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git).
+This allows you to take your own copy and to use the code. For differences between these practices please review the [here](https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git). [29]
 
 To Clone my Repository:
 
@@ -256,7 +272,7 @@ To Clone my Repository:
 In this case you will use the HTTPS.
 
 <p align="center">
-    <img src="Images/git_HTTP.jpg">
+    <img src="Images/git_HTTP.jpg" width="350" height="350">
 </p>
 
 
@@ -277,8 +293,72 @@ There will now be a copy of the repository saved to your device, using Visual St
 
 ## Bibliography
 
-[]
+[1] MyGreatLearning, Top 30 Python Libraries To Know in 2024, 8th Nov 2023, https://www.mygreatlearning.com/blog/open-source-python-libraries/ 
 
-[]
+[2] numpy, NumPy: the absolute basics for beginners, 2018-2022,  https://numpy.org/doc/stable/user/absolute_beginners.html
 
-[]
+[3] Image, Python Tutorial, What is Numpy, 2023 https://www.pythontutorial.net/python-numpy/what-is-numpy/
+
+[4] pandas, pandas, 2023 https://pandas.pydata.org/
+
+[5] ScipyStats, Statistical functions, 2008-2021  https://docs.scipy.org/doc/scipy-1.7.1/reference/reference/stats.html 
+
+[6] Image, Penn State, Department of Statistics, https://online.stat.psu.edu/statprogram/sites/statprogram/files/2018-08/statistics-review.jpg 
+
+[7] Matplotlib, Matplotlib: Visualization with Python, 2012-2023, https://matplotlib.org/ 
+
+[8] Matplotlib, Pyplot tutorial, 2012 – 2023, https://matplotlib.org/stable/tutorials/pyplot.html 
+
+[9]Seaborn, An introduction to seaborn, 2012-2023, https://seaborn.pydata.org/tutorial/introduction.html 
+
+<br/>
+Technology Used
+
+[10] Anaconda, 2023, https://www.anaconda.com/
+
+[11] Visual Studio Code, 2023, https://code.visualstudio.com/
+
+[12] Jupyter, 2023, https://jupyter.org/ 
+
+[13] git, 2023, https://git-scm.com/ 
+
+[14] Github, 2023, https://github.com/ 
+
+[15] Binder, 2023, https://mybinder.org/ 
+
+[16] NbViewer, 2023, https://nbviewer.org/ 
+
+<br/>
+
+[17] Wikipedia, Python (programming language), 22nd Dec 2023,  https://en.wikipedia.org/wiki/Python_(programming_language) 
+
+[18] Simplilearn, Anaconda vs Python in Software: Know the Key Differences, 9th May 2023,  https://www.simplilearn.com/anaconda-vs-python-article 
+
+[19] Anaconda, Free Download, 2023, https://www.anaconda.com/download
+
+[20] Anaconda, Installation, 2023, https://docs.anaconda.com/free/anaconda/install/
+
+[21] Anaconda, Getting started with Anaconda Distribution, 2023, https://docs.anaconda.com/free/anaconda/getting-started/#
+
+[22] Visual Studio Code, main page, 2023, https://code.visualstudio.com/?wt.mc_id=DX_84 1432
+
+[23] Code Academy, Getting Started with Visual Studio Code and Building HTML Websites, 2023 https://www.codecademy.com/article/visual-studio-code
+
+[24] DataCamp, How to Use Jupyter Notebooks: The Ultimate Guide, March 2023, https://www.datacamp.com/tutorial/tutorial-jupyter-notebook 
+
+[25] Wikipedia, Git, 7th December 2023, https://en.wikipedia.org/wiki/Git 
+
+[26] Simplilearn, What is Git: Features, Commands, Branch and Workflow in Git, 27th July 2023,  https://www.simplilearn.com/tutorials/git-tutorial/what-is-git 
+
+[27] Image, Simplilearn, What is Git: Features, Commands, Branch and Workflow in Git, 27th July 2023,  https://www.simplilearn.com/ice9/free_resources_article_thumb/business-org.JPG
+
+[28] NbViewer, What is nbviewer? 2023, https://nbviewer.org/faq#what-is-nbviewer
+
+[29] Educative, What is the difference between forking and cloning in Git?, 2023, https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git 
+
+***
+
+## End
+
+
+***
